@@ -9,7 +9,7 @@ body {
 
 @font-face {
   font-family: bubble;
-  src: url("/resources/bubble.otf") format("opentype");
+  src: url("/fonts/bubble.otf") format("opentype");
 }
 
 @media (prefers-color-scheme: dark) {
@@ -34,7 +34,7 @@ body {
   .grid-item:hover {
     background-color: #222222 !important;
   }
-  
+
   .grid-item img {
     border-radius: 4px;
   }
@@ -67,17 +67,11 @@ body {
 .letter-box.large {
   background-color: #c4ddff;
   color: #2c9aff;
-  width: 3vw;
-  height: 3vw;
-  font-size: 3vw;
 }
 
 .letter-box.small {
   background-color: #c4ddff;
   color: #66abf9;
-  width: 1vw;
-  height: 1vw;
-  font-size: 0.75vw;
 }
 
 .grid-container {
@@ -98,8 +92,6 @@ body {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  width: 30px;
-  height: 30px;
   overflow: hidden;
   position: relative;
   transition: transform 0.3s ease;
